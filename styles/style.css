@@ -2,7 +2,7 @@
   --primary-color: #ff6f3c;
   --secondary-color: #2c786c;
   --tertiary-color: #5c5470;
-  --background-color: #faf5e4;
+  --background-color: #f5f4ef;
   --link-padding: 10px 10px;
   --link-border-radius: 5px;
   --link-margin-top: 20px;
@@ -45,4 +45,16 @@ p {
   font-weight: bold;
   border-left: 2px solid;
   padding-left: 14px;
+}
+
+.homepage-anchor-link {
+  color: var(--secondary-color);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+.homepage-anchor-link:hover {
+  color: var(--primary-color);
 }
