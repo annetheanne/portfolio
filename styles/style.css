@@ -17,14 +17,12 @@ body {
 h1 {
   color: var(--primary-color);
   font-size: 50px;
-  font-weight: bold;
   text-align: center;
 }
 
 h2 {
   color: var(--primary-color);
   font-size: 20px;
-  font-weight: bold;
   opacity: 0.7;
   text-align: center;
 }
@@ -50,7 +48,6 @@ p {
 .homepage-anchor-link {
   color: var(--secondary-color);
   font-size: 20px;
-  font-weight: bold;
   text-align: center;
   text-decoration: none;
 }
