@@ -2,7 +2,7 @@
   --primary-color: #ff6f3c;
   --secondary-color: #2c786c;
   --tertiary-color: #5c5470;
-  --background-color: #f5f4ef;
+  --background-color: #ffffff;
   --link-padding: 10px 10px;
   --link-border-radius: 5px;
   --link-margin-top: 20px;
@@ -54,4 +54,8 @@ p {
 
 .homepage-anchor-link:hover {
   color: var(--primary-color);
+}
+
+@media (max-width: 767.98px) {
+  p {text-align: center;}
 }
