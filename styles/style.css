@@ -33,6 +33,7 @@ p {
 
 .nav-link {
   color: var(--secondary-color) !important;
+  line-height: normal;
 }
 
 .nav-link:hover {
