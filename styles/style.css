@@ -57,6 +57,28 @@ p {
   color: var(--primary-color);
 }
 
+footer .email-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 18px;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 18px;
+  margin: 0 15px;
+}
+footer .social-links a:hover {
+  color: var(--primary-color);
+}
+
 @media (max-width: 767.98px) {
-  p {text-align: center;}
+  p {
+    text-align: center;
+  }
 }
