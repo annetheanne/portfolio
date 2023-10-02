@@ -96,19 +96,22 @@ footer .social-links a:hover {
     font-size: 24px;
   }
   h2 {
-    font-size: 14px;
+    font-size: 18px;
   }
   p {
-    text-align: center;
-    font-size: 10px;
+    font-size: 16px;
+    margin-bottom: 0;
   }
   .homepage-anchor-link {
-    font-size: 14px;
+    font-size: 18px;
   }
+ .centered {
+  width: 90%;
+ }
   footer .email-link {
-    font-size: 14px;
+    font-size: 18px;
   }
   footer .social-links {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
