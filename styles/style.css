@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #ff6f3c;
-  --secondary-color: #2c786c;
-  --tertiary-color: #5c5470;
+  --primary-color: #2c786c;
+  --secondary-color: #59a985;
+  --tertiary-color: #330033;
   --background-color: #ffffff;
   --link-padding: 10px 10px;
   --link-border-radius: 5px;
@@ -16,13 +16,13 @@ body {
 
 h1 {
   color: var(--primary-color);
-  font-size: 50px;
+  font-size: 48px;
   text-align: center;
 }
 
 h2 {
   color: var(--primary-color);
-  font-size: 20px;
+  font-size: 24px;
   text-align: center;
 }
 
@@ -100,9 +100,6 @@ footer .social-links a:hover {
   }
   p {
     margin-bottom: 0;
-  }
-  .homepage-anchor-link {
-    font-size: 16px;
   }
  .centered {
   width: 90%;
