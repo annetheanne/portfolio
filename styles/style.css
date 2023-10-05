@@ -57,7 +57,7 @@ p {
 }
 
 .home-image {
-  opacity: 0.2;
+  opacity: 0.15;
 }
 
 .img-container {
@@ -71,23 +71,24 @@ p {
   transform: translate(-50%, -50%);
 }
 
-footer .email-link {
+.email-link {
   text-decoration: none;
   color: var(--secondary-color);
   font-size: 18px;
 }
 
-footer .email-link:hover {
+.email-link:hover {
   color: var(--primary-color);
 }
 
-footer .social-links a {
+.social-links a {
   text-decoration: none;
   color: var(--secondary-color);
   font-size: 18px;
   margin: 0 15px;
 }
-footer .social-links a:hover {
+
+.social-links a:hover {
   color: var(--primary-color);
 }
 
@@ -100,6 +101,9 @@ footer .social-links a:hover {
   }
   p {
     margin-bottom: 0;
+  }
+  .homepage-anchor-link {
+    display: none;
   }
  .centered {
   width: 90%;
