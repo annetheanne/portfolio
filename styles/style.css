@@ -16,14 +16,12 @@ body {
 
 h1 {
   color: var(--primary-color);
-  font-size: 48px;
-  text-align: center;
+  font-size: 40px;
 }
 
 h2 {
   color: var(--primary-color);
-  font-size: 24px;
-  text-align: center;
+  font-size: 20px;
 }
 
 p {
@@ -92,6 +90,19 @@ p {
   color: var(--primary-color);
 }
 
+.button-link {
+  border-radius: 4px;
+  padding: 8px 10px;
+  text-decoration: none;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.button-link:hover {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
 @media (max-width: 767.98px) {
   h1 {
     font-size: 24px;
@@ -100,18 +111,30 @@ p {
     font-size: 18px;
   }
   p {
+    text-align: center;
+  }
+  .centered p {
     margin-bottom: 0;
   }
   .homepage-anchor-link {
     display: none;
   }
- .centered {
-  width: 90%;
- }
-  footer .email-link {
+  .centered {
+    width: 90%;
+  }
+  .work-container {
+    text-align: center;
+  }
+  .work-image {
+    display: none;
+  }
+  .button-link {
+    margin-top: 10%;
+  }
+  .email-link {
     font-size: 18px;
   }
-  footer .social-links {
+  .social-links {
     font-size: 18px;
   }
 }
