@@ -90,6 +90,15 @@ p {
   color: var(--primary-color);
 }
 
+.site-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.site-link:hover {
+  color: var(--primary-color);
+}
+
 .button-link {
   border-radius: 4px;
   padding: 8px 10px;
